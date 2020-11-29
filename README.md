@@ -13,7 +13,7 @@ I have tried several different model architectures:
 
 The most successful was the 2D CNN and least was the LSTM
 
-<img src="https://github.com/mkspillane/hangman_AI/blob/main/IWin_ratemages/Average_misses" width="300" height="200">
+<img src="https://github.com/mkspillane/hangman_AI/blob/main/Images/Average_misses" width="300" height="200">
 <img src="https://github.com/mkspillane/hangman_AI/blob/main/Images/Win_Rate" width="300" height="200">
 
 # Letter Embeddings

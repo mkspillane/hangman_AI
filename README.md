@@ -13,13 +13,13 @@ I have tried several different model architectures:
 
 The most successful was the 2D CNN and least was the LSTM
 
-<img src="https://github.com/mkspillane/hangman_AI/blob/main/Images/Average_misses" width="300" height="200">
-<img src="https://github.com/mkspillane/hangman_AI/blob/main/Images/Win_rate" width="300" height="200">
+<img src="https://github.com/mkspillane/hangman_AI/blob/main/IWin_ratemages/Average_misses" width="300" height="200">
+<img src="https://github.com/mkspillane/hangman_AI/blob/main/Images/Win_Rate" width="300" height="200">
 
 # Letter Embeddings
 
 Instead of one-hot encoding the letters it is also possible to train embedding vectors for them instead.  This does not have much effect on the model performance, but provided the following interesting plot.  Using PCA the letter embeddings were projected so that they can be viewed.
 
-<img src="https://github.com/mkspillane/hangman_AI/blob/main/Images/etter_embeddings.png" width="300" height="200">
+<img src="https://github.com/mkspillane/hangman_AI/blob/main/Images/letter_embeddings.png" width="300" height="200">
 
 There are a couple of things to notice, to the lower right are the vowels (and "y"), on the left is "q" which is presumbably singled out because it is almost always followed by "u".  You may also notice the non-letter "{" which represents the embedding for a blank space for an unguessed letter. 
